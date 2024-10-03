@@ -5,6 +5,7 @@
 class Square:
     """ representation of a Square class """
 
-    def __Init__(self, size):
-        """ Instantation with size with object initialization """
-        self, __size = size
+    def __init__(self, size):
+        """ instantation with size for our object initialization """
+
+        self.__size = size
