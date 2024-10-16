@@ -13,7 +13,7 @@ status_codes = {
         '403': 0,
         '404': 0,
         '405': 0,
-        '500': 0,
+        '500': 0
         }
 
 total_size = i = 0
@@ -25,7 +25,6 @@ def printer():
     for key, value in sorted(status_codes.items()):
         if value > 0:
             print('{:s}: {:d}'.format(key, value))
-
 
 
 try:
