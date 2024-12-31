@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-""" Write a script that takes in an argument and displays all values in the
-states table of hbtn_0e_0_usa where name matches the argument. """
+""" Wait, do you remember the previous task? Did you test "Arizona'; TRUNCATE
+TABLE states ; SELECT * FROM states WHERE name = '" as an input? """
 import MySQLdb
 import sys
 
